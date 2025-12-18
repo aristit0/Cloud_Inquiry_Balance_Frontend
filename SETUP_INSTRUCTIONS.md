@@ -1,5 +1,10 @@
 # 🚀 Quick Setup - Inquiry Balance Frontend
 
+## ✅ Fixed Version - Tailwind CSS 3.4.1
+
+This ZIP includes the fixed version using **Tailwind CSS 3.4.1** (stable).
+No Tailwind CSS 4 PostCSS errors!
+
 ## Instalasi Cepat (5 Menit)
 
 ### Prerequisites

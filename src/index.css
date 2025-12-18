@@ -1,6 +1,8 @@
-@import 'tailwindcss';
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
 
-@layer theme {
+@layer base {
   :root {
     --background: 220 13% 97%;
     --foreground: 220 13% 9%;
