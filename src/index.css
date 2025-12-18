@@ -6,77 +6,77 @@
 
 @layer base {
   :root {
-    /* Modern Professional Palette - Easy on the eyes */
-    --background: 240 10% 97%;
-    --foreground: 240 10% 10%;
+    /* Professional Palette with Better Contrast */
+    --background: 0 0% 98%;
+    --foreground: 222 47% 11%;
     
     --card: 0 0% 100%;
-    --card-foreground: 240 10% 10%;
+    --card-foreground: 222 47% 11%;
     
     --popover: 0 0% 100%;
-    --popover-foreground: 240 10% 10%;
+    --popover-foreground: 222 47% 11%;
     
-    /* Soft Blue Primary - Professional but modern */
-    --primary: 221 83% 53%;
-    --primary-foreground: 0 0% 98%;
+    /* Strong Blue Primary */
+    --primary: 217 91% 60%;
+    --primary-foreground: 0 0% 100%;
     
-    /* Muted Purple Secondary */
-    --secondary: 250 100% 95%;
-    --secondary-foreground: 250 60% 30%;
+    /* Muted backgrounds */
+    --secondary: 214 32% 97%;
+    --secondary-foreground: 222 47% 11%;
     
-    --muted: 240 5% 96%;
-    --muted-foreground: 240 4% 46%;
+    --muted: 210 40% 96%;
+    --muted-foreground: 215 16% 47%;
     
-    /* Soft Indigo Accent */
-    --accent: 242 47% 55%;
-    --accent-foreground: 0 0% 98%;
+    /* Accent */
+    --accent: 217 91% 60%;
+    --accent-foreground: 0 0% 100%;
     
-    --destructive: 0 72% 51%;
-    --destructive-foreground: 0 0% 98%;
+    --destructive: 0 84% 60%;
+    --destructive-foreground: 0 0% 100%;
     
-    --border: 240 6% 90%;
-    --input: 240 6% 90%;
-    --ring: 221 83% 53%;
+    --border: 214 32% 91%;
+    --input: 214 32% 91%;
+    --ring: 217 91% 60%;
     
     --radius: 1rem;
     
-    /* Custom Soft Colors */
-    --soft-blue: 221 83% 53%;
-    --soft-purple: 250 60% 65%;
-    --soft-indigo: 242 47% 55%;
-    --soft-green: 142 76% 36%;
+    /* Custom Colors with Better Contrast */
+    --soft-blue: 217 91% 60%;
+    --soft-purple: 262 83% 58%;
+    --soft-indigo: 243 75% 59%;
+    --soft-green: 142 71% 45%;
     --soft-orange: 25 95% 53%;
     --soft-teal: 189 85% 45%;
   }
   
   .dark {
-    --background: 240 10% 8%;
-    --foreground: 240 5% 96%;
+    --background: 222 47% 11%;
+    --foreground: 210 40% 98%;
     
-    --card: 240 8% 12%;
-    --card-foreground: 240 5% 96%;
+    --card: 222 47% 15%;
+    --card-foreground: 210 40% 98%;
     
-    --popover: 240 8% 12%;
-    --popover-foreground: 240 5% 96%;
+    --popover: 222 47% 15%;
+    --popover-foreground: 210 40% 98%;
     
-    --primary: 221 83% 53%;
-    --primary-foreground: 0 0% 98%;
+    --primary: 217 91% 60%;
+    --primary-foreground: 0 0% 100%;
     
-    --secondary: 240 10% 16%;
-    --secondary-foreground: 240 5% 96%;
+    --secondary: 217 33% 17%;
+    --secondary-foreground: 210 40% 98%;
     
-    --muted: 240 8% 16%;
-    --muted-foreground: 240 4% 60%;
+    --muted: 223 47% 20%;
+    --muted-foreground: 215 20% 65%;
     
-    --accent: 242 47% 55%;
-    --accent-foreground: 0 0% 98%;
+    --accent: 217 91% 60%;
+    --accent-foreground: 0 0% 100%;
     
-    --destructive: 0 72% 51%;
-    --destructive-foreground: 0 0% 98%;
+    --destructive: 0 84% 60%;
+    --destructive-foreground: 0 0% 100%;
     
-    --border: 240 8% 20%;
-    --input: 240 8% 20%;
-    --ring: 221 83% 53%;
+    --border: 217 33% 25%;
+    --input: 217 33% 25%;
+    --ring: 217 91% 60%;
   }
 }
 
@@ -178,7 +178,7 @@
   
   /* Frosted glass effect - subtle */
   .glass-effect {
-    background: rgba(255, 255, 255, 0.7);
+    background: rgba(255, 255, 255, 0.85);
     backdrop-filter: blur(20px) saturate(180%);
     -webkit-backdrop-filter: blur(20px) saturate(180%);
     border: 1px solid rgba(255, 255, 255, 0.3);
