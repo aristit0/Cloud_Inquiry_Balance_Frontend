@@ -117,7 +117,7 @@ server {
     }
 
     location /api/ {
-        proxy_pass http://cloud-inquiry-balance-backend:8080/api/;
+        proxy_pass http://cloud-inquiry-balance-backend:2115/api/;
         proxy_http_version 1.1;
         proxy_set_header Upgrade $http_upgrade;
         proxy_set_header Connection 'upgrade';
@@ -247,7 +247,7 @@ EOF
                 script {
                     sh '''
                         echo "Checking if backend is accessible from frontend container..."
-                        docker exec merchant-frontend wget -q -O- http://merchant-backend:8080/health || \
+                        docker exec merchant-frontend wget -q -O- http://cloud-inquiry-balance-backend:2115/health || \
                         echo "⚠️  Backend not accessible (make sure backend is running)"
                     '''
                 }
