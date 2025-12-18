@@ -3,22 +3,22 @@ import { cva } from "class-variance-authority"
 import { cn } from "@/lib/utils"
 
 const badgeVariants = cva(
-  "inline-flex items-center rounded-md border px-2.5 py-0.5 text-xs font-semibold font-mono uppercase tracking-wide transition-all duration-300",
+  "inline-flex items-center rounded-lg px-2.5 py-1 text-xs font-semibold transition-all duration-200 border",
   {
     variants: {
       variant: {
         default:
-          "border-[hsl(var(--neon-cyan))] bg-[hsl(var(--neon-cyan))/0.1] text-[hsl(var(--neon-cyan))] shadow-[0_0_10px_hsl(var(--neon-cyan)/0.3)]",
+          "bg-blue-50 text-blue-700 border-blue-200 dark:bg-blue-950/50 dark:text-blue-300 dark:border-blue-900",
         secondary:
-          "border-[hsl(var(--muted))] bg-[hsl(var(--muted))] text-foreground",
+          "bg-gray-100 text-gray-700 border-gray-200 dark:bg-gray-800 dark:text-gray-300 dark:border-gray-700",
         destructive:
-          "border-[hsl(var(--destructive))] bg-[hsl(var(--destructive))/0.1] text-[hsl(var(--destructive))] shadow-[0_0_10px_hsl(var(--destructive)/0.3)]",
+          "bg-red-50 text-red-700 border-red-200 dark:bg-red-950/50 dark:text-red-300 dark:border-red-900",
         success:
-          "border-[hsl(var(--neon-green))] bg-[hsl(var(--neon-green))/0.1] text-[hsl(var(--neon-green))] shadow-[0_0_10px_hsl(var(--neon-green)/0.3)]",
+          "bg-green-50 text-green-700 border-green-200 dark:bg-green-950/50 dark:text-green-300 dark:border-green-900",
         warning:
-          "border-[hsl(var(--neon-orange))] bg-[hsl(var(--neon-orange))/0.1] text-[hsl(var(--neon-orange))] shadow-[0_0_10px_hsl(var(--neon-orange)/0.3)]",
+          "bg-orange-50 text-orange-700 border-orange-200 dark:bg-orange-950/50 dark:text-orange-300 dark:border-orange-900",
         outline: 
-          "text-foreground border-[hsl(var(--border))]",
+          "bg-background text-foreground border-border hover:bg-accent",
       },
     },
     defaultVariants: {
