@@ -14,7 +14,7 @@ export default defineConfig({
     port: 2116,
     proxy: {
       '/api': {
-        target: 'http://localhost:2115',
+        target: 'http://cloud-inquiry-balance-backend:2115',
         changeOrigin: true,
       },
     },
