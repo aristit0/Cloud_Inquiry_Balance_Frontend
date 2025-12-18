@@ -98,7 +98,7 @@ function InquiryBalance() {
               </div>
               <div>
                 <h1 className="text-xl lg:text-2xl font-bold gradient-text">
-                  ModernBank
+                  Bank Demo UI
                 </h1>
                 <p className="text-xs text-gray-600 hidden sm:block">
                   Account Inquiry System
@@ -487,7 +487,7 @@ function InquiryBalance() {
       <footer className="border-t border-gray-200 mt-12 lg:mt-20">
         <div className="container mx-auto px-4 lg:px-8 py-6">
           <div className="flex flex-col sm:flex-row items-center justify-between gap-4 text-sm text-gray-600">
-            <p>© 2024 ModernBank. All rights reserved.</p>
+            <p>© 2024 Account Inquiry. All rights reserved.</p>
             <div className="flex items-center gap-2">
               <Shield className="h-4 w-4 text-emerald-600" />
               <span>Bank-grade security</span>
